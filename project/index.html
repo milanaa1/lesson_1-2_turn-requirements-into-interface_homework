@@ -5,15 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебный проект по техническому заданию"
+      content="История о любимом хобби — игре на гитаре"
     />
-    <title>Учебный проект</title>
+    <title>Игра на гитаре</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
+      <section class="hero card" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <p class="eyebrow">Любимое хобби</p>
+
+    <h1 id="hero-title">Игра на гитаре</h1>
+
+    <p class="hero__lead">
+      Для меня игра на гитаре — это не только хобби, но и способ
+      выражать эмоции, отдыхать и переключаться от повседневных дел.
+    </p>
+
+    <a class="button" href="#steps">Узнать подробнее</a>
+  </div>
+
+  <div class="hero__image">
+    <img src="guitar.jpg" alt="Девушка играет на гитаре">
+  </div>
+</section>
+
+<section id="story" class="story" aria-labelledby="story-title">
+  <div class="story__heading">
+    <p class="eyebrow">История</p>
+    <h2 id="story-title">Как всё началось</h2>
+  </div>
+
+  <div class="story__body card">
+    <p class="story__lead">
+      Всё началось с обычного интереса к музыке и желания самой играть любимые песни.
+    </p>
+
+    <p>
+      Я начала учиться играть на гитаре, разбирать аккорды и постепенно осваивать композиции, которые мне нравятся.
+    </p>
+
+    <p>
+      Со временем я стала играть увереннее, а гитара превратилась для меня в способ отвлечься, отдохнуть и выразить настроение.
+    </p>
+  </div>
+</section>
+
+<section id="steps" class="steps" aria-labelledby="steps-title">
+  <div class="story__heading">
+    <p class="eyebrow">Главное</p>
+    <h2 id="steps-title">Почему мне нравится играть</h2>
+  </div>
+
+  <div class="steps__grid">
+
+    <article class="idea-card card">
+      <span class="idea-card__index">01</span>
+      <h3 class="idea-card__title">Почему начала</h3>
+      <p class="idea-card__text">
+        Я начала играть, потому что хотела сама исполнять любимые песни.
+      </p>
+    </article>
+
+    <article class="idea-card card">
+      <span class="idea-card__index">02</span>
+      <h3 class="idea-card__title">Как развиваюсь</h3>
+      <p class="idea-card__text">
+        Я регулярно разучиваю новые композиции и постепенно улучшаю навык.
+      </p>
+    </article>
+
+    <article class="idea-card idea-card--highlight card">
+      <span class="idea-card__index">03</span>
+      <h3 class="idea-card__title">Что это даёт</h3>
+      <p class="idea-card__text">
+        Игра на гитаре помогает мне отдыхать, переключаться и выражать настроение.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+
+<section class="reflection card" aria-labelledby="reflection-title">
+  <p class="eyebrow">Главная мысль</p>
+
+  <h2 id="reflection-title">
+    Музыка для меня — это способ выражать настроение и делать что-то своё.
+  </h2>
+</section>
     </main>
   </body>
 </html>
