@@ -125,7 +125,7 @@ main {
   margin-bottom: 0;
 }
 
-.story__lead {
+.story__body .story__lead {
   font-size: 21px;
   font-weight: 600;
   color: #2f2925;
@@ -133,15 +133,6 @@ main {
 
 .steps {
   margin-top: 80px;
-}
-
-.story__heading {
-  margin-bottom: 28px;
-}
-
-.story__heading h2 {
-  margin: 0;
-  font-size: 38px;
 }
 
 .steps__grid {
@@ -201,18 +192,13 @@ main {
   }
 
   .hero__image img {
-  height: 280px;
+    height: 280px;
   }
 
   .hero {
     flex-direction: column;
     align-items: flex-start;
     padding: 28px;
-  }
-
-  .hero__badge {
-    max-width: none;
-    width: 100%;
   }
 
   .hero__lead {
@@ -230,5 +216,26 @@ main {
   .reflection {
     margin-top: 48px;
     padding: 28px;
+  }
+
+  .story {
+    margin-top: 48px;
+  }
+
+  .story__body {
+    padding: 28px;
+  }
+
+  .story__body p {
+    font-size: 16px;
+  }
+
+  .story__body .story__lead {
+    font-size: 18px;
+  }
+
+  .story__heading h2 {
+    font-size: 32px;
+    line-height: 1.1;
   }
 }
